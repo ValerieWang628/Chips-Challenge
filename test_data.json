@@ -1,0 +1,23 @@
+[
+    {"platform":
+        {"launch_year": 1989,
+        "name": "Atari Lynx"
+        },
+    "title": "Chip's Challenge",
+    "year": 1989
+    },
+    {"platform":
+        {"launch_year": 2003,
+        "name": "Steam"
+        },
+    "title": "Chip's Challenge 2",
+    "year": 2015
+    },
+    {"platform":
+        {"launch_year": 1989,
+        "name": "Microsoft Windows"
+        },
+    "title": "Minesweeper",
+    "year": 1989
+    }
+]
