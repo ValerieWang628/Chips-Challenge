@@ -3,14 +3,33 @@ import json
 import cc_data
 
 # the yunziw_cc1.json file only listed three very basic optional fields
-# advanced fields, like monsters, and buttons, etc are written through the python functions
+# advanced fields, like monsters, and buttons, etc are written through the python functions, not manually scripted in json
+# because it is a little bit easier to specify object attributes than typing lists/objects in json
 
 #Part 3
+def add_trap(ccLevel):
+    '''
+    this helper function adds trap to each level
+    '''
+    if ccLevel.level_number == 1:
+        ccTrapCoordinates = cc_data.CCTrapControl(6,6,2,3)
+    elif ccLevel.level_number == 2:
+        ccTrapCoordinates = cc_data.CCTrapControl(6,6,7,3)
+    return ccTrapCoordinates
+
+def add_clone_machine(ccLevel):
+    '''
+    this helper function adds cloning machine to each level
+    '''
+    if ccLevel.level_number == 1:
+        ccCloneCoordinates = cc_data.CCCloningMachineControl(2,7,5,7)
+    elif ccLevel.level_number == 2:
+        ccCloneCoordinates = cc_data.CCCloningMachineControl(3,7,5,7)
+    return ccCloneCoordinates
+
 def activate_monsters(ccLevel):
     '''
-    Instead of manually writing json structures,
-    this is a helper function that specifies monster movement
-    from an OOP perspective
+    this helper function adds monster movement to each level
     '''
     if ccLevel.level_number == 1:
         ccMonsterCoordinates = [cc_data.CCCoordinate(5,3),cc_data.CCCoordinate(5,4),cc_data.CCCoordinate(6,4)]
@@ -45,16 +64,25 @@ def load_json_to_CCDataFile(json_data):
         ccMapHintField = cc_data.CCMapHintField(item["level"]["optional_fields"][2]["field_7"]["hint"])
         ccLevel.add_field(ccMapHintField)
         
+        # adding moving monsters
         ccMonsterCoordinates = activate_monsters(ccLevel)
         ccMonsterMovementField = cc_data.CCMonsterMovementField(ccMonsterCoordinates)
         ccLevel.add_field(ccMonsterMovementField)
+
+        # adding trap sets
+        ccTrapCoordinates = add_trap(ccLevel)
+        ccTrapControlsField = cc_data.CCTrapControlsField([ccTrapCoordinates])
+        ccLevel.add_field(ccTrapControlsField)
+
+        # adding cloning machines
+        ccCloningCoordinates = add_clone_machine(ccLevel)
+        ccCloningMachineFields = cc_data.CCCloningMachineControlsField([ccCloningCoordinates])
+        ccLevel.add_field(ccCloningMachineFields)
 
         ccDataFile.levels.append(ccLevel)
     
     return ccDataFile
 
-# a = load_json_to_CCDataFile("yunziw_cc1.json")
-# print(json.dumps(a, default=lambda a: a.__dict__))
 
 cc_dat_utils.write_cc_data_to_dat(load_json_to_CCDataFile("yunziw_cc1.json"), "yunziw_cc1.dat")
 cc_dat_utils.make_cc_data_from_dat("yunziw_cc1.dat")
