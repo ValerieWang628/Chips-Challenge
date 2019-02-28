@@ -1,9 +1,5 @@
 [
     {
-        "_comment": "this is a basic json structure written for cc level design",
-        "_comment1": "it only lists three basic optional fields",
-        "_comment2:": "advanced field commands are executed in the part_3_convert_json python file",
-        "_comment3": "three helper functions were used in the python file to load monsters, traps, and clone machines into the dat file",
         "level": 
         {
             "level_number": 1,
