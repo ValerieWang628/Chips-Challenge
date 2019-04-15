@@ -1,7 +1,7 @@
 # Chip's Challenge Level Design
 
 ## Game Overview
-[Chip's Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) is an old-school tile-based puzzle video game. 
+[Chip's Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) is an old-school tile-based puzzle video game. ([see complete wiki](https://bitbusters.club/wiki/Chip%27s_Challenge_Wiki)) 
 This game was originally published in 1989 by Epyx as a launch title for the Atari Lynx.
 And the game platform is called [Tileworld](http://www.muppetlabs.com/~breadbox/software/tworld/tworld.html#8).
 In this game, the player will need the [TileWorld installation](http://www.muppetlabs.com/~breadbox/software/tworld/download.html), and enter it, be the hero Chip who aims to conquer the monsters, pass the traps, and solve the puzzles to open the level door and enter the next level. 
