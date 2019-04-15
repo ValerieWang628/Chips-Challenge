@@ -29,6 +29,7 @@ Instead, in Google sheet, we can link the icon value, the tile name, and tile im
 When inputting tile image into the cells, we can use the lookup function to link to the icon value.
 As a result, directly editing a level in google sheet is pretty easy.
 
+👉🏼See how the level looks like in a spreadsheet:
 <p align="center">
 <img src="https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/cc_suppplement/spreadsheetLevelDesign.png" width ="600" height="413"/>
 </p>
@@ -41,7 +42,9 @@ Next, we need [Google App Script](https://developers.google.com/apps-script/) (a
 I also added extra features such as password letter-number converter, advanced tiles usage, etc.
 ([see the complete script I wrote](https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/Google-sheet-script.gs))
 
-Many people have not realized that Google has a powerful scripting language and an editor for light-weighted programming. Here is a screenshot of what it does:
+Many people have not realized that Google has a powerful scripting language and an editor for light-weighted programming. 
+
+👉🏼Here is a screenshot of what it does:
 <p align="center">
 <img src="https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/cc_suppplement/googleScriptSnap.png" width ="500" height="368"/>
 </p>
@@ -66,7 +69,7 @@ Copy the .dac file, change it to a .dat file.
 
 Import the two files into the TileWorld directory. And the levels are ready.
 
-A simple screenshot of how successful import looks like:
+👉🏼A simple screenshot of how successful import looks like:
 
 <p align="center">
 <img src="https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/cc_suppplement/levelInTileWorld.png" width ="300" height="225"/>
