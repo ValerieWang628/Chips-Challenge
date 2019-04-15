@@ -1,4 +1,4 @@
-# Chip's Challenge Level Design
+# Chip's Challenge Level Design by Yunzi Wang
 
 ## Game Overview
 [Chip's Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) is an old-school tile-based puzzle video game. ([see complete wiki](https://bitbusters.club/wiki/Chip%27s_Challenge_Wiki)) 
