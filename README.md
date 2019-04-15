@@ -22,7 +22,7 @@ Chip's Challenge is originally an 8-byte game. Now we have more advanced program
 
 First, every tile/icon in Chip's Challenge has a corresponding code in the 8 byte capacity. 
 For example, 0 stands for empty floor; 1 stands for wall; 21 stands for exit, etc.
-(For the complete lookup, go to the [Icon Values tab of the sheet]())
+(For the complete lookup, go to the [Icon Values tab of the sheet]() or the [wiki tile directory](https://bitbusters.club/wiki/Category:Tiles))
 
 Thus, it would be rather inconvenient for designers to code in mere numbers. 
 Instead, in Google sheet, we can link the icon value, the tile name, and tile image together. 
