@@ -11,7 +11,7 @@ Classic elements of puzzle video game are prevalent here, such as moving monster
 >Game Synopsis:
 >Tile World is a reimplementation of the game "Chip's Challenge". The player controls Chip, navigating him through his challenges. The object of each level of the game is to find and reach the exit tile, which takes you to the next level. The levels contain many different kinds of obstacles, creatures both hostile and indifferent, tools, protective gear -- and, of course, chips.
 
-This project is forked from David Culyba who is my instructor of the course *Programming for Game Designers* at Carnegie Mellon University. The program designs levels for Chip's Challenge -- to customize the levels with input of different elements.
+This project is forked from [David Culyba](https://github.com/dculyba) who is my instructor of the course *Programming for Game Designers* at Carnegie Mellon University. The program designs levels for Chip's Challenge -- to customize the levels with input of different elements.
 
 ## Design Pipeline
 Chip's Challenge is originally an 8-byte game. Now we have more advanced programming tools, instead of hard-coding 1 and 0 to make the levels, I designed a better pipeline for game designers to design/edit the levels with better visualized layouts.
