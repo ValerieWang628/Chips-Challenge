@@ -38,11 +38,12 @@ But, how do we export the spreadsheet level design?
 #### 2. JSON file exported from the Google sheet: 
 
 Next, we need [Google App Script](https://developers.google.com/apps-script/) (a JavaScript-based scripting language) to export the spreadsheet level to JSON files. 
-
 I also added extra features such as password letter-number converter, advanced tiles usage, etc.
 ([see the complete script I wrote](https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/Google-sheet-script.gs))
 
+Many people have not realized that Google has a powerful scripting language and an editor for light-weighted programming. Here is a screenshot of what it does:
 <p align="center">
+<img src="https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/cc_suppplement/googleScriptSnap.png" width ="500" height="368"/>
 </p>
 
 
