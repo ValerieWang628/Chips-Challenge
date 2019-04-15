@@ -74,3 +74,16 @@ A simple screenshot of how successful import looks like:
 
 ## Level Elements: 
 
+There are classic elements of puzzle video games. 
+
+In this game, combination and dependency is very important --
+
+Key of certain colors match doors of certain colors (except gree key which is a master key);
+there are certain buttons to trigger the trap;
+there are other buttons to trigger the cloning machine;
+only dirt blocks will help build a path above the water;
+walk through fire with fire boots on;
+skate the ice with ice skater boots on;
+slide through slip tiles with suction boots, etc.
+
+The difficulty of the levels depends on the process of the player collecting items and connecting their functions. Optimization is key.
