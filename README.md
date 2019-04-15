@@ -29,8 +29,8 @@ Instead, in Google sheet, we can link the icon value, the tile name, and tile im
 When inputting tile image into the cells, we can use the lookup function to link to the icon value.
 As a result, directly editing a level in google sheet is pretty easy.
 
-<p>
-  
+<p align="center">
+<img src="https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/cc_suppplement/spreadsheetLevelDesign.png" width ="600" height="413"/>
 </p>
 
 But, how do we export the spreadsheet level design?
@@ -64,8 +64,8 @@ Import the two files into the TileWorld directory. And the levels are ready.
 
 A simple screenshot of how successful import looks like:
 
-<p>
-  
+<p align="center">
+<img src="https://github.com/ValerieWang628/Chips-Challenge-Level-Design/blob/master/cc_suppplement/levelInTileWorld.png" width ="300" height="225"/>
 </p>
 
 ## Level Elements: 
