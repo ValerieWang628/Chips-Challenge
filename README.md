@@ -81,7 +81,7 @@ There are classic elements of puzzle video games.
 
 In this game, combination and dependency is very important --
 
-Key of certain colors match doors of certain colors (except gree key which is a master key);
+Key of certain colors match doors of certain colors (except the green key which is a master key);
 there are certain buttons to trigger the trap;
 there are other buttons to trigger the cloning machine;
 only dirt blocks will help build a path above the water;
