@@ -16,7 +16,7 @@ Classic elements of puzzle video game are prevalent here, such as moving monster
 ## Design Pipeline
 Chip's Challenge is originally an 8-byte game. Now we have more advanced programming tools, instead of hard-coding 1 and 0 to make the levels, I designed a better pipeline for game designers to design/edit the levels with better visualized layouts.
 
-### How does this pipeline works:
+### How does this pipeline work:
 
 #### 1. Google sheet for level design:
 
