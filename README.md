@@ -2,7 +2,7 @@
 # Chip's Challenge Level Design by Valerie Wang
 
 ## Game Overview
-[Chip's Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) is an old-school tile-based puzzle video game. ([see complete wiki](https://bitbusters.club/wiki/Chip%27s_Challenge_Wiki)) 
+[Chip's Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) is an 8-bit old-school tile-based puzzle video game. ([see complete wiki](https://bitbusters.club/wiki/Chip%27s_Challenge_Wiki)) 
 
 
 ### Brief Game History
