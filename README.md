@@ -16,7 +16,7 @@ Tile World is a reimplementation of the game "Chip's Challenge". The player cont
     <img src= "https://static.wixstatic.com/media/5a3935_36bd2d8eda044ee880125911f2811df7~mv2.png/v1/fill/w_449,h_260,al_c,lg_1,q_85/Lucky_timing_example.webp" width = "449" height = "260">
 <p>
 
-👉🏼An partial spritesheet of Chip's Challenge: ([source](https://chipschallenge.fandom.com/wiki/Tile))
+👉🏼A partial spritesheet of Chip's Challenge: ([source](https://chipschallenge.fandom.com/wiki/Tile))
 <p align="center">
     <img src= "https://static.wixstatic.com/media/5a3935_b7812103b5a6432cbb21a1365a0b2a05~mv2.gif" width = "416" height = "512">
 <p>
